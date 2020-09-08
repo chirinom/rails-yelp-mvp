@@ -2,9 +2,10 @@
 
   <div class="page-header center-text">
     <h1>New Review</h1>
+    <h6><strong>Restaurant name:  </strong><%= @restaurant.name %></h6>
   </div>
   
   <%= render 'form', review: @review %>
-  <h5><%= link_to "Go back to restaurants", restaurants_path %></h5>
+  <h6><%= link_to "Go back to restaurants", restaurants_path %></h6>
 
 </div>
