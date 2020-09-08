@@ -11,3 +11,17 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+padding: 50px
+}
+
+.wrapper {
+    height: 500px;
+    width: 900px;
+    box-shadow: 0px 1px 30px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 10px;
+    align-content: center;
+}
