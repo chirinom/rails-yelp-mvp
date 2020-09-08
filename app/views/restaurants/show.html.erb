@@ -12,7 +12,8 @@
     <h5>Reviews:</h5>
     <ul>
       <% @restaurant.reviews.each do |review| %>
-        <li><%= review.content %>(<%= review.rating %>)</li>
+        <li><strong>  Comment: </strong><%= review.content %>
+        <strong>  Rate: </strong><%= review.rating %></li>
       <% end %>
     </ul>
   </div>
